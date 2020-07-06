@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>oss-parent</artifactId>
+        <groupId>org.minbox.framework</groupId>
+        <version>0.1.0.RELEASE</version>
+        <relativePath>../oss-parent</relativePath>
+    </parent>
+    <groupId>org.minbox.framework</groupId>
+    <artifactId>minbox-mongo-client-settings</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>
+        Extend Spring Boot Data Mongo to provide more configuration parameters
+    </description>
+    <properties>
+        <mongo-driver-sync.version>4.0.4</mongo-driver-sync.version>
+        <spring-data-mongodb.version>3.0.1.RELEASE</spring-data-mongodb.version>
+    </properties>
+    <developers>
+        <developer>
+            <id>hengboy</id>
+            <name>恒宇少年 - 于起宇</name>
+            <email>jnyuqy@gmail.com</email>
+            <url>https://blog.yuqiyu.com</url>
+        </developer>
+    </developers>
+    <organization>
+        <name>minbox-project</name>
+        <url>https://github.com/minbox-projects</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>${mongo-driver-sync.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring-data-mongodb.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
