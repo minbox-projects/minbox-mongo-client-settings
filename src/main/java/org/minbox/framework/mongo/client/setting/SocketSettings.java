@@ -18,7 +18,7 @@ public class SocketSettings {
     /**
      * The socket read timeout MilliSeconds
      */
-    private long readTimeoutMilliSeconds;
+    private long readTimeoutMilliSeconds = 10000;
     /**
      * The receive buffer size
      */

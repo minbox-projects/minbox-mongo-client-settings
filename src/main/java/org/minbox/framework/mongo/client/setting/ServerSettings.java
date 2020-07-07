@@ -11,6 +11,6 @@ import lombok.Data;
  */
 @Data
 public class ServerSettings {
-    private long heartbeatFrequencyMilliSeconds;
-    private long minHeartbeatFrequencyMilliSeconds;
+    private long heartbeatFrequencyMilliSeconds = 10000;
+    private long minHeartbeatFrequencyMilliSeconds = 500;
 }
