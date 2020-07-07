@@ -14,8 +14,8 @@ import lombok.Data;
 @Data
 public class ClusterSettings {
     private ClusterConnectionMode mode;
-    private ClusterType requiredClusterType;
+    private ClusterType requiredClusterType = ClusterType.UNKNOWN;
     private String requiredReplicaSetName;
-    private long localThresholdMilliSeconds;
-    private long serverSelectionTimeoutMilliSeconds;
+    private long localThresholdMilliSeconds = 15;
+    private long serverSelectionTimeoutMilliSeconds = 30000;
 }
