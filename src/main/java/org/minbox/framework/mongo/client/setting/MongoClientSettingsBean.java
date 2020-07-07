@@ -11,8 +11,6 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
  */
 @Data
 public class MongoClientSettingsBean {
-    private String applicationName;
-
     /**
      * The socket settings
      */
