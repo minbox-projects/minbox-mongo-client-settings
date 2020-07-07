@@ -5,18 +5,20 @@ import lombok.Data;
 /**
  * The mongo socket settings
  *
+ * @author 恒宇少年
  * @see com.mongodb.connection.SocketSettings
+ * @since 1.0
  */
 @Data
 public class SocketSettings {
     /**
-     * The socket connect timeout milliseconds
+     * The socket connect timeout MilliSeconds
      */
-    private long connectTimeoutMilliseconds = 10000;
+    private long connectTimeoutMilliSeconds = 10000;
     /**
-     * The socket read timeout milliseconds
+     * The socket read timeout MilliSeconds
      */
-    private long readTimeoutMilliseconds;
+    private long readTimeoutMilliSeconds;
     /**
      * The receive buffer size
      */
