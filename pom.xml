@@ -17,7 +17,7 @@
     </description>
     <properties>
         <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
-        <mongo-driver-sync.version>4.0.4</mongo-driver-sync.version>
+        <mongo-driver-sync.version>4.0.6</mongo-driver-sync.version>
         <spring-data-mongodb.version>3.0.1.RELEASE</spring-data-mongodb.version>
         <lombok.version>1.18.12</lombok.version>
     </properties>
