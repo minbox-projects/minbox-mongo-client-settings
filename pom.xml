@@ -16,7 +16,7 @@
         Extend Spring Boot Data Mongo to provide more configuration parameters
     </description>
     <properties>
-        <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
+        <spring-boot.version>2.7.18</spring-boot.version>
         <mongo-driver-sync.version>4.0.4</mongo-driver-sync.version>
         <spring-data-mongodb.version>3.0.1.RELEASE</spring-data-mongodb.version>
         <lombok.version>1.18.12</lombok.version>
